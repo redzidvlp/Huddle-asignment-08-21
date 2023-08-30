@@ -46,19 +46,6 @@ body {
     justify-content:space-between;
 }
 
-.content-title {
-    display: flex;
-    flex-wrap: wrap;
-    width: 60%;
-    font-size: 50px;
-    margin: 0;
-}
-
-.content-title-info {
-    width: 55%;
-    display: flex;
-}
-
 .button {
     background-color: white;
     border: 2px solid white;
@@ -76,6 +63,33 @@ body {
     transition-timing-function: ease;
 }
 
+.outer-info-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.content-wrapper {
+    display: flex;
+    flex-wrap: wrap;  
+    flex-direction: column;  
+    row-gap: 50px;
+    justify-content: center;
+}
+
+.content-title {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    font-size: 50px;
+    margin: 0;
+}
+
+.content-title-info {
+    width: 55%;
+    display: flex;
+}
 
 .pink-button {
     display: flex;
@@ -99,25 +113,18 @@ body {
     transition-timing-function: ease;
 }
 
-.content-wrapper {
+
+
+
+
+
+
+.border-box {
     display: flex;
-    flex-wrap: wrap;  
-    flex-direction: column;  
-    row-gap: 50px;
+    flex-wrap: wrap;
     justify-content: center;
+    height: auto;
 }
-
-.outer-info-wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding: 50px;
-}
-
-
-
-
-
 
 .outer-container-wrapper {
     display: flex;
@@ -126,41 +133,32 @@ body {
     border: solid 2px white;
     border-radius: 15px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    justify-content: space-around;
     align-items: center;
     width: 80%;
-    min-height: 400px;
     padding: 50px;
 }
-
-.border-box {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    height: fit-content;
-}
-
-
 
 .inside-container {
     display: flex;
     flex-direction: column;
-    width: 60%;
+    width: 40%;
     height: auto;
-    padding: 100px;
+    row-gap: 10px;
 }
-
 
 .inner-title {
     font-size: 30px;
     margin: 0;
 }
 
-
+.inner-content-text {
+    margin: 0;
+}
 
 .inner-picture {
-    width: 35%;
+    width: 400px;
     height: auto;
-    padding: 30px;
 }
 
 .middle {
