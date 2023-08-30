@@ -2,6 +2,9 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
 
 .pale-cyan {
     color: hsl(193, 100%, 96%);
